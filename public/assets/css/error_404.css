@@ -1,0 +1,38 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Facebook's signature blue-gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  p {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Error 404 Styles */
+  
+  p::before {
+    content: "404";
+    font-size: 100px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  p::after {
+    content: "Page not found";
+    font-size: 24px;
+    display: inline-block;
+  }

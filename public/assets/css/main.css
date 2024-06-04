@@ -1,0 +1,120 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    /* Facebook's signature blue-gray background */
+}
+
+header{
+    background-color: #3b5998;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+#username{
+    color: white;
+    font-size: 20px;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Post Container Styles */
+
+#postcontainer {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 500px;
+    /* adjust width to your liking */
+}
+
+#postcontainer h2 {
+    margin-top: 0;
+}
+
+#postcontainer p {
+    margin-bottom: 10px;
+}
+
+/* Form Styles */
+
+form {
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"],
+button[name="delete"] {
+    background-color: #4267b2;
+    /* Facebook's signature blue button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[name="delete"]:hover {
+    background-color: #365899;
+}
+
+a[name="disconnect"] {
+    text-decoration: none;
+    color: #4267b2;
+}
+
+a[name="disconnect"]:hover {
+    text-decoration: underline;
+}
